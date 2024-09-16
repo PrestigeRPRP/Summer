@@ -46,7 +46,7 @@ window.onblur = function() {
 }
 
 function randPhrase(){
-    phrases = ["Sorry","New Me","Together","New You","Unlimited posibilities","My life","My everything","You and Me", "Forever"];
+    phrases = ["Sorry","New Me","Together","New You","My life","My everything","You and Me", "Forever"];
     return(`${phrases[Math.floor(Math.random()*phrases.length)]}`);
 }
 
